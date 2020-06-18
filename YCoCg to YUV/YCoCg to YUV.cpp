@@ -1,17 +1,16 @@
 //
 #include <iostream>
 #include "converter.h"
+int Y;
+int Co;
+int Cg;
+double Luma;
+double U;
+double V;
+bool running = true;
 
 int main()
 {
-    int Y;
-    int Co;
-    int Cg;
-    double Luma;
-    double U;
-    double V;
-    bool running = true;
-
     std::cout << "YCoCg to YUV converter\n";
     
     while (running) {
