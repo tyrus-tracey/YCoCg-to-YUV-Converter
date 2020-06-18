@@ -16,7 +16,7 @@ int main()
     
     while (running) {
         std::cout << "Enter integers for Y, Co, Cg, or enter anything else to close:\n";
-        if(std::cin >> Y >> Co >> Cg) {
+        if(std::cin >> Y >> Co >> Cg) { //Store user input
             convertToYUV(Y, Co, Cg, Luma, U, V);
             std::cout << "YUV: " << Luma << " " << U << " " << V << "\n\n";
         }
